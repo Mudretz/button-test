@@ -1,1 +1,7 @@
-export declare const Button: () => import("react/jsx-runtime").JSX.Element;
+import { FC } from 'react';
+
+interface Props {
+    name: string;
+}
+export declare const Button: FC<Props>;
+export {};
