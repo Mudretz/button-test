@@ -1,3 +1,9 @@
-export const Button = () => {
-  return <button>Нажми на меня</button>;
+import { FC } from "react";
+
+interface Props {
+  name: string;
+}
+
+export const Button: FC<Props> = ({ name }) => {
+  return <button>{name}</button>;
 };
