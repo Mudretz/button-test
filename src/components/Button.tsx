@@ -5,5 +5,6 @@ interface Props {
 }
 
 export const Button: FC<Props> = ({ name }) => {
+  console.log("22")
   return <button>{name}</button>;
 };
